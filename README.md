@@ -5,6 +5,39 @@
 sudo apt install python python-dev python3.6 python3.6-dev python-tk protobuf-compiler
 sudo apt install python-pip python3-pip 
 sudo apt-get install tesseract-*
+
+Replaced above commands with below and tried in a dockerized ubuntu
+    1  apt-get update -y
+    2  apt install python3 -y
+    *3  apt install python python-dev -y
+    4  apt install python-tk protobuf-compiler -y
+    *5  apt install python-pip python3-pip
+    6  apt install python-pip
+    7  apt install python3-pip
+    8  pip3 --version
+    9  apt-get install tesseract-*
+   10  pip3 install --upgrade setuptools
+   11  pip3 install pytesseract
+   12  pip3 install tesseract
+   13  pip3 install pillow
+   14  python3 --version
+   15  history
+   16  ll
+   17  cd home/
+   18  ll
+   19  wget https://raw.githubusercontent.com/BeanGreen247/Image-to-text-converter/master/imagetotextconversion.py
+   20  apt install wget
+   21  wget https://raw.githubusercontent.com/BeanGreen247/Image-to-text-converter/master/imagetotextconversion.py
+   22  ll
+   23  python3 imagetotextconversion.py
+   24  wget https://i.stack.imgur.com/t3qWG.png
+   25  ll
+   26  python3 imagetotextconversion.py
+   27  vi out.txt-eng.txt 
+   28  apt install vim
+   29  vi out.txt-eng.txt 
+
+
 ```
 ### Upgrade setuptools
 ```
